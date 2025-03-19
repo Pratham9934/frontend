@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automation Software</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="x-icon/image" href="./assets/Omnifin-Logo.png" />
+</head>
+
+<body>
+  <div class="main-body">
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img src="Omnifin-Logo.png" alt="Omnifin" />
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="hero">
+        <!-- This is Heading -->
+        <div class="heading">Profit & Loss Statements</div>
+        <!-- This is table 1 -->
+
+        <table>
+          <tr>
+            <th class="table-head-statements">Statements</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+          </tr>
+          <tr class="add-color">
+            <th>Revenue</th>
+            <th>Audited</th>
+            <th>Audited</th>
+            <th>Projected</th>
+            <th>Projected</th>
+            <th>Projected</th>
+          </tr>
+          <tr>
+            <td>Revenue From Operation</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Other Income</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Provisions</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Others</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+        </table>
+        <!-- Total Revenue Section -->
+        <table>
+          <tr>
+            <th class="table-head-statements">Total Revenue/Income</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+          </tr>
+          <tr class="add-output-color">
+            <td><b>Total Revenue</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+        </table>
+        <br /><br />
+        <!-- This is table 2 -->
+
+        <table>
+          <tr>
+            <th class="table-head-statements"><br></th>
+            <!-- <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th> -->
+          </tr>
+          <tr class="add-color">
+            <th>Expenses</th>
+            <th>Audited</th>
+            <th>Audited</th>
+            <th>Projected</th>
+            <th>Projected</th>
+            <th>Projected</th>
+          </tr>
+          <tr>
+            <td>Cost of Materials Consumed</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Changes in Inventories of Finished goods</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Cost of Goods Sold</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Employee benefits Expense</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Depreciation</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Finance Cost</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Other Expenses</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+        </table>
+        <!-- Total Expenses Section -->
+        <table>
+          <tr>
+            <th class="table-head-statements">Total Expenses</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+          </tr>
+          <tr class="add-output-color">
+            <td><b>Total Expenses</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+          <!-- Profit Before Tax -->
+          <tr class="add-output-color">
+            <td><b>Profit Before Tax</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+        </table>
+
+        <!-- This is Tax Section -->
+
+        <table>
+          <tr>
+            <th class="table-head-statements"><br></th>
+            <!-- <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th> -->
+          </tr>
+          <tr class="add-color">
+            <th>Tax Expenses</th>
+            <th>Audited</th>
+            <th>Audited</th>
+            <th>Projected</th>
+            <th>Projected</th>
+            <th>Projected</th>
+          </tr>
+          <tr>
+            <td>Accumulated Loss/Profit</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Current Tax</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Deferred Tax Expenses/(Credit)</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Tax Of earlier year/MAT</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Provision for Tax</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+        </table>
+        <!-- Total Tax -->
+        <table>
+          <tr>
+            <th class="table-head-statements">Total Tax</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+            <th>Amount</th>
+          </tr>
+          <tr class="add-output-color">
+            <td><b>Total Tax</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+          <!-- Profit Of the Year -->
+          <tr class="add-output-color">
+            <td><b>Profit Of the Year</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+          <tr>
+            <td>Other Comprehensive Income</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr class="add-output-color">
+            <td><b>Profit carried to Balance Sheet</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+          <tr>
+            <td><b>Number Of Shares</b></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr class="add-output-color">
+            <td><b>EPS</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+        </table>
+
+        <br><br>
+
+        <!-- Balance Sheet Section -->
+
+        <table>
+          <tr class="add-color">
+            <th class="table-head-statements">Balance Sheet(Amount in INR Actuals)</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+          </tr>
+          <!-- <tr class="add-color">
+            <th>Revenue</th>
+            <th>Audited</th>
+            <th>Audited</th>
+            <th>Projected</th>
+            <th>Projected</th>
+            <th>Projected</th>
+          </tr> -->
+          <tr>
+            <td>Equity & Liabilities</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Equity Share Capital</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Securities Premium</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Statutory Reserve</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Reserve & Surplus / Other Equity</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Statutory Reserve</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><b>Shareholders Funds</b></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>External Funds Infused</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Fin liabilities - Borrowings</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Deferred Tax -Liabilities(Net)</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Long Term Provission</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Other term Liabilities</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Total Non-Current Liabilities</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><b>Current Liabilities</b></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Fin Liabilities -Short Term Borrowings</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Fin Liabilities - Trade Payables</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Short Term Provision</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Other Current Liablities</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><b>Total Current Liablities</b></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><b>TOTAL LIABILITIES & EQUITY</b></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><B>ASSETS</B></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><B>FIX ASSETS</B></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+
+          <tr>
+            <td>Property, Plante & Equipment</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Intangible Assets</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Capitial Work in Progress</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Investment</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+
+          <tr>
+            <td>Long term Loans & Advances</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Other non Loan & Advances</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+
+          <tr>
+            <td>Other Non Current assets</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Deffered Tax Assets(Net)</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+
+          <tr>
+            <td><b>Total Non-current Assets</b></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+        </table>
+        <br><br>
+
+        <!-- Assets Section -->
+
+        <table>
+          <tr>
+            <th class="table-head-statements"><br></th>
+            <!-- <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th>
+            <th class="table-head-year">31/Mar/23</th> -->
+          </tr>
+          <tr class="add-color">
+            <th>Current Assets</th>
+            <th>Audited</th>
+            <th>Audited</th>
+            <th>Projected</th>
+            <th>Projected</th>
+            <th>Projected</th>
+          </tr>
+          <tr>
+            <td>Inventories</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Short Term Loans & Advances</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Fin Assets -Trade Receivables</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Fin Assets -Cash & Cash Equivalents</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td>Other Current Assets</td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr class="add-output-color">
+            <td><b>Total Current Assets</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+          <tr class="add-output-color">
+            <td><b>TOTAL ASSETS</b></td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+            <td>Output Value</td>
+          </tr>
+        </table>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Javascript Link -->
+</body>
+
+</html>
